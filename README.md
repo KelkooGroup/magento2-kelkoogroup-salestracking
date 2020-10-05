@@ -15,9 +15,9 @@ Track your orders in Kelkoo.
 
 1. Under your magento installation create directory app/code/ if it’s missing
 2. go to /app/code
-3. Download Kelkoost_magento2-2.zip module for magento 2. (compatible for Magento 2.2 and 2.3)
-4. copy Kelkoost_magento2-2.tgz in directory /app/code
-5. extract Kelkoost_magento2-2.tgz
+3. Download [Kelkoogroup sales tracking](https://github.com/KelkooGroup/magento2-kelkoogroup-salestracking/archive/1.0.0.zip) module for magento 2. (compatible for Magento 2.2 and 2.3)
+4. copy magento2-kelkoogroup-salestracking-1.0.0.zip in directory /app/code
+5. extract magento2-kelkoogroup-salestracking-1.0.0.zip
 6. check directory tree, you should have something similar to: 
 ```
 app/code/Kelkoo/Modulekelkoost/   
