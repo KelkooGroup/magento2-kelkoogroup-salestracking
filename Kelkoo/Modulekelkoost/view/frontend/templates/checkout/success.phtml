@@ -1,0 +1,25 @@
+
+<?php /** @var $block \Kelkoo\Modulekelkoost\Block\Success */ ?>
+<div>
+    <?php if ($block->getOrder()->getId()):?>
+
+
+<script type="text/javascript">
+    var _kkstrack = {
+      merchantInfo: [{ country:"COUNTRY", merchantId:"COM_ID" }],
+      orderValue: '<?=$block->getOrder()->getGrandTotal()?>',
+      orderId: '<?=$block->getOrder()->getId() ?>',
+      basket: []
+    };
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://s.kk-resources.com/ks.js';
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    })();
+ </script>
+  <?php endif; ?>
+
+</div>

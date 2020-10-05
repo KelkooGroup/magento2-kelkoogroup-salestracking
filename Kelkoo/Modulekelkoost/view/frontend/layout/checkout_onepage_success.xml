@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!--referenceBlock name="checkout.success" template="Kelkoo_Modulekelkoost::checkout/success.phtml"/-->
+
+       <referenceBlock name="checkout.success"/>
+       <referenceContainer name="content">
+           <block class="Magento\Checkout\Block\Onepage\Success" name="custom.checkout.success" template="Kelkoo_Modulekelkoost::checkout/success.phtml" />
+       </referenceContainer>
+    </body>
+</page>
